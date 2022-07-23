@@ -45,7 +45,7 @@ function Smoke() {
         map={texture}
         depthWrite={false}
         transparent
-        opacity={0.55}
+        opacity={0.2}
       />
     </instancedMesh>
   )
@@ -64,9 +64,9 @@ function CanvasWrap() {
             intensity={0.25}
             position={[-1, 0, 1]}
           />
-        <ambientLight color="#111" intensity={0.5} />
+        <ambientLight color="#111" intensity={1} />
         <pointLight
-          color="#d40027"
+          color="#d40ddd"
           intensity={30}
           position={[-200, 0, -40]}
           distance={500}
